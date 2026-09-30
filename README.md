@@ -70,13 +70,6 @@ Stochastic **SIR epidemic simulator** on a 2D toroidal grid with multi-distance 
 Python · Matplotlib · Cellular Automata · Monte Carlo
 ```
 
-### 💎 [Chain Reaction Gems](https://github.com/poyanorouzieh/Chain-Reaction-Gems)
-Console-based **match-3 puzzle game** in C++ featuring **recursive chain reactions**, exponential combo scoring, and full save/load functionality. Built with clean OOP architecture.
-
-```
-C++ · OOP · Recursion · File I/O · ASCII UI
-```
-
 ---
 
 ## 📊 GitHub Stats
