@@ -1,175 +1,106 @@
-# Hello 👋 I'm Poya Norouzieh
+# 👋 Hi, I'm Poya Norouzieh
 
-**Applied Physicist | Quantum Computing Developer | ML/AI Learner**
+### 🔬 Computational Physicist | Scientific Computing & Simulation
 
-📍 Iran | 🎓 Electrical Engineering Student @ Iran University of Science and Technology
+I'm passionate about bridging **physics, mathematics, and programming** to solve real-world problems through numerical simulation, machine learning, and interactive visualization.
 
----
-
-## 🎯 About Me
-
-I'm a passionate applied physicist and computer scientist with a deep focus on **quantum mechanics** and **quantum field theory**. I combine rigorous theoretical physics knowledge with practical programming skills to build computational tools and simulations for real-world quantum problems.
-
-- 🏅 **Silver Medal Winner** - National Physics Olympiad (High School Level)
-- 🔬 **Self-taught Physics Researcher** - Deep dives into quantum mechanics and quantum field theory
-- 🤖 **AI/ML Learner** - Currently exploring machine learning applications in physics
-- 💻 **Scientific Computing Developer** - Building quantum simulators and numerical solvers
-- 🌌 **Quantum Computing Enthusiast** - Designing algorithms and simulations for quantum systems
+Currently focused on:
+- 🌌 **Quantum mechanics simulations** (Python, MATLAB)
+- 🧪 **Machine learning for chemistry & materials** (scikit-learn)
+- ⚡ **Electromagnetic field solvers** (Boundary Element Method)
+- 💻 **Building interactive tools** for scientific exploration
 
 ---
 
-## 🛠️ Technical Skills
+## 🛠️ Tech Stack
 
-**Programming Languages:**
-- **Python** 🐍 - Primary language for scientific computing and ML
-- **C++** - High-performance computing with OOP design patterns
-- **MATLAB/Octave** - Numerical simulations and scientific visualization
+### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-**Core Competencies:**
-- Quantum Mechanics Simulations
-- Numerical Methods & Scientific Computing
-- Object-Oriented Programming (OOP)
-- Wave Packet Dynamics & Fourier Methods
-- Quantum Tunneling & Transfer Matrix Method
-- Monte Carlo Methods & Statistical Analysis
-- Game Logic & Algorithmic Problem-Solving
+### Scientific Computing
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-**Fields of Expertise:**
-- **Applied Physics** - Quantum mechanics, computational physics
-- **Quantum Field Theory** - Theoretical foundations (self-taught)
-- **Machine Learning** - Currently learning (TensorFlow, scikit-learn)
-- **Scientific Visualization** - 3D rendering and data visualization
+### Visualization & Tools
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![PyVista](https://img.shields.io/badge/PyVista-3D%20Visualization-purple?style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 
-## 🌟 Featured Projects
+## 🚀 Featured Projects
 
-### 1. **[SSF-Method Project](https://github.com/poyanorouzieh/SSF-method-project)** ⭐
-MATLAB simulator for time evolution of quantum wave packets using the **Split-Step Fourier Method**
+### 🧪 [QM9 GAP Predictor](https://github.com/poyanorouzieh/qm9-gap-predictor)
+Machine learning pipeline for predicting **HOMO-LUMO energy gaps** of organic molecules using the QM9 quantum chemistry dataset. Compares Ridge regression with polynomial features against Random Forest (R² ≈ 0.81).
 
-**What it does:**
-- Simulates quantum wave packet propagation through potentials
-- Implements Fourier-based numerical methods for Schrödinger equation
-- Visualizes wave packet dynamics in real-time
+```
+Python · scikit-learn · pandas · joblib
+```
 
-**Tech Stack:** MATLAB, Numerical Methods, FFT Algorithms
-**Key Concepts:** Wave packet evolution, Fourier transforms, quantum mechanics
+### ⚡ [Conductors in an Electric Field](https://github.com/poyanorouzieh/Conductors-in-an-Electric-Field)
+MATLAB-based numerical tool for computing **surface charge density** on 3D conductors under external electric fields. Uses **Boundary Element Method (BEM)** with implicit geometry and triangular meshing, supports time-dependent fields with 3D animation.
 
----
+```
+MATLAB · PDE Toolbox · App Designer · BEM
+```
 
-### 2. **[Wave-Function of Hydrogen](https://github.com/poyanorouzieh/Wave-function-of-Hydrogen)** ✨
-3D visualization of hydrogen atom wave functions using **Monte Carlo sampling**
+### 🌌 [Wave Function of Hydrogen](https://github.com/poyanorouzieh/Wave-function-of-Hydrogen)
+Interactive 3D visualization of hydrogen atom wave functions (ψ_nlm) using **Monte Carlo rejection sampling**. Generates probability clouds |ψ|² and renders them with PyVista.
 
-**What it does:**
-- Generates probability density distributions for hydrogen wave functions
-- Creates stunning 3D visualizations of quantum orbitals
-- Uses statistical sampling for efficient computation
+```
+Python · NumPy · SciPy · PyVista · Monte Carlo
+```
 
-**Tech Stack:** Python, NumPy, Matplotlib, 3D Visualization
-**Key Concepts:** Wave functions, probability distributions, quantum states
+### ⚛️ [1D Quantum Transmission (TMM)](https://github.com/poyanorouzieh/1D-Quantum-Transmission-TMM)
+Numerical solver for **1D quantum transmission** through arbitrary potentials using the **Transfer Matrix Method**. Computes transmission/reflection coefficients for step, Gaussian, and barrier potentials.
 
----
+```
+MATLAB · Transfer Matrix Method · Quantum Mechanics
+```
 
-### 3. **[1D Quantum Transmission - TMM](https://github.com/poyanorouzieh/1D-Quantum-Transmission-TMM)** 🔬
-Calculate quantum tunneling probability through any 1D potential using **Transfer Matrix Method**
+### 🦠 [Spatial Epidemic Simulation](https://github.com/poyanorouzieh/Spatial-Epidemic-Simulation)
+Stochastic **SIR epidemic simulator** on a 2D toroidal grid with multi-distance transmission (24 neighbors). Includes Monte-Carlo analysis and validation against real epidemic data.
 
-**What it does:**
-- Solves quantum tunneling problems for arbitrary potential barriers
-- Implements the Transfer Matrix Method for 1D Schrödinger equation
-- Computes transmission and reflection probabilities
+```
+Python · Matplotlib · Cellular Automata · Monte Carlo
+```
 
-**Tech Stack:** MATLAB, Quantum Mechanics, Matrix Algorithms
-**Key Concepts:** Quantum tunneling, barrier penetration, Schrödinger equation
+### 💎 [Chain Reaction Gems](https://github.com/poyanorouzieh/Chain-Reaction-Gems)
+Console-based **match-3 puzzle game** in C++ featuring **recursive chain reactions**, exponential combo scoring, and full save/load functionality. Built with clean OOP architecture.
 
----
-
-### 4. **[Chain Reaction Gems](https://github.com/poyanorouzieh/Chain-Reaction-Gems)** 🎮
-Console-based match-3 game with recursive chain reactions and advanced OOP design
-
-**What it does:**
-- Implements complex game logic with cascading match reactions
-- Features complete save/load system for game state persistence
-- Demonstrates recursive algorithms and design patterns
-
-**Tech Stack:** C++ (OOP), Game Logic, Data Structures
-**Key Concepts:** Recursion, design patterns, object-oriented architecture
+```
+C++ · OOP · Recursion · File I/O · ASCII UI
+```
 
 ---
 
-## 🎓 Education & Achievements
+## 📊 GitHub Stats
 
-- 🏫 **Electrical Engineering Student** - Iran University of Science and Technology
-- 🏅 **Silver Medal** - National Physics Olympiad (High School Level)
-- 📚 **Self-Directed Learning** - Quantum field theory, advanced computational physics
-- 🎯 **Research Interests:** Applied quantum mechanics, quantum field theory, computational physics
-
----
-
-## 🚀 Research & Interest Areas
-
-### Primary Focus
-- 🌌 **Quantum Mechanics & Quantum Field Theory** - Deep theoretical and applied aspects
-- 🔮 **Quantum Computing** - Building simulators, exploring quantum algorithms
-- 📡 **Computational Physics** - Numerical solutions to complex physics problems
-
-### Secondary Interest
-- 🧠 **Machine Learning in Physics** - AI applications for scientific discovery
-- 📊 **Scientific Data Analysis** - Statistical methods and visualization
-- 🎨 **Scientific Visualization** - Making complex physics intuitive and beautiful
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=poyanorouzieh&show_icons=true&theme=tokyonight&hide_border=true" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=poyanorouzieh&layout=compact&theme=tokyonight&hide_border=true" height="170" />
+</p>
 
 ---
 
-## 💡 My Philosophy
+## 🎓 Background
 
-**Research & Development Approach:**
-- 📖 **Deep Understanding First** - Understand the physics before implementing
-- 🔧 **Practical Solutions** - Theory must translate to working code
-- 🧹 **Clean Code** - Readable, maintainable, well-documented implementations
-- 🔄 **Continuous Learning** - Quantum mechanics, AI/ML, new computational methods
-- 🎯 **Problem-Driven** - Solve real physics problems, not just toy examples
+- 🎓 **Electrical Engineering** — University of Science and Technology of Iran
+- 🔬 Interested in **computational physics**, **numerical methods**, and **scientific computing**
+- 📚 Passionate about turning complex physics into clean, visual, and interactive code
 
 ---
 
-## 🤝 Open to Collaboration
+## 📫 Let's Connect
 
-I'm actively interested in collaborating on:
-
-- 🔬 **Quantum Computing Research** - Building quantum simulators and algorithms
-- 🤖 **ML/AI in Physics** - Machine learning applications for scientific computing
-- 📚 **Open-Source Physics Projects** - Contributing to scientific computing ecosystems
-- 💻 **Physics Simulations** - Complex numerical solvers and visualization tools
-- 📖 **Educational Physics Tools** - Making quantum mechanics more accessible
-
-**If you have an interesting project or opportunity in these areas, I'd love to hear from you!**
+[![Email](https://img.shields.io/badge/Email-poyanorouzieh%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:poyanorouzieh@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-poyanorouzieh-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/poyanorouzieh)
 
 ---
 
-## 📫 Get in Touch
-
-- 📧 **Email:** poyanorouzieh@gmail.com
-- 🌐 **GitHub:** [@poyanorouzieh](https://github.com/poyanorouzieh)
-- 💼 **Looking to connect on:** Quantum computing projects, AI/ML research, physics simulations
-
----
-
-## ⚡ Fun Facts
-
-- 🎮 Avid gamer - Especially love intricate, challenging gameplay experiences
-- 🔭 Passionate about bridging theory and practice in physics
-- 🌱 Self-taught in quantum field theory - Love deep dives into complex topics
-- 🚀 Believe that understanding physics at quantum scale is key to future technology
-
----
-
-## 📝 Latest Updates
-
-- 🔬 Focused on quantum mechanics simulations and numerical methods
-- 🤖 Currently learning machine learning and AI applications
-- 📈 Building practical tools for quantum computing research
-
----
-
-⭐ **If you find my projects interesting or my work aligns with your interests, feel free to star them or reach out!**
-
-*Last updated: September 2024*
-*Actively seeking opportunities in quantum computing, physics research, and AI/ML applications*
+⭐ *"The best way to understand physics is to simulate it."*
